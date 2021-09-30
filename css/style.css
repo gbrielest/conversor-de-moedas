@@ -1,24 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Urbanist:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
 body{
-    font-family: monospace;
+    font-family: 'Urbanist';
     color: #fff;
     background-color: #000;
-    background-image: url("../image/fundo.png");
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) , url("../image/money.jpg");
+    background-size: cover ;
     background-repeat: no-repeat;
-    background-position: center bottom;
-    background-size: 100vh;
-    min-height: 400px;
+    background-position: center center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .container{
+    font-size: 30px;
     text-align: center;
     padding: 20px;
     height: 100vh;
 }
 
 .titulo{
+    font-size: 60px;
     margin: 0 0 5px 5px;
 }
 
 .subtitulo{
+    font-size: 30px;
     margin-top: 5px;
+}
+
+#valorConvertido{
+    font-size: 25px;
+}
+
+#valorBitcoin{
+    font-size: 25px;
 }
